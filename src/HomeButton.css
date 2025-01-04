@@ -1,0 +1,30 @@
+  /* HomeButton.css */
+.home-button-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000; /* Per far sì che il bottone sia sempre sopra gli altri contenuti */
+}
+
+.home-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  background-color: grey;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.home-button:hover {
+  background-color: #45a049;
+  transform: scale(1.1);
+}
+
+.home-button:active {
+  background-color: #388e3c;
+}

@@ -1,0 +1,110 @@
+{
+  "players": [
+    {
+      "id": "77ae",
+      "nickname": "Fagotto",
+      "name": "Agostino",
+      "age": "37",
+      "handedness": "right"
+    },
+    {
+      "nickname": "Zio Bianco",
+      "name": "Marco",
+      "age": "",
+      "handedness": ""
+    },
+    {
+      "nickname": "Zio Nero",
+      "name": "Vincenzo",
+      "age": "",
+      "handedness": ""
+    },
+    {
+      "nickname": "Fecchie",
+      "name": "Ivano",
+      "age": "",
+      "handedness": ""
+    },
+    {
+      "nickname": "Facchio",
+      "name": "Marco",
+      "age": "",
+      "handedness": ""
+    },
+    {
+      "nickname": "Thokk",
+      "name": "Giovanni",
+      "age": "",
+      "handedness": ""
+    },
+    {
+      "id": "f569",
+      "nickname": "Pippo",
+      "name": "Filippo",
+      "age": "34",
+      "handedness": "right"
+    }
+  ],
+  "matches": [
+    {
+      "id": "20a2",
+      "idMatch": "1",
+      "date": "2025-01-02",
+      "player1": "Zio Nero",
+      "player2": "Fagotto",
+      "player3": "Zio Bianco",
+      "player4": "Fecchie",
+      "resultTeam1": "3",
+      "resultTeam2": "6",
+      "winners": [
+        "Zio Bianco",
+        "Fecchie"
+      ]
+    },
+    {
+      "id": "5188",
+      "idMatch": "2",
+      "date": "2025-01-02",
+      "player1": "Zio Nero",
+      "player2": "Fecchie",
+      "player3": "Zio Bianco",
+      "player4": "Fagotto",
+      "resultTeam1": "7",
+      "resultTeam2": "5",
+      "winners": [
+        "Zio Nero",
+        "Fecchie"
+      ]
+    },
+    {
+      "id": "b9db",
+      "idMatch": "3",
+      "date": "2025-01-02",
+      "player1": "Zio Nero",
+      "player2": "Zio Bianco",
+      "player3": "Fagotto",
+      "player4": "Fecchie",
+      "resultTeam1": "6",
+      "resultTeam2": "1",
+      "winners": [
+        "Zio Nero",
+        "Zio Bianco"
+      ]
+    },
+    {
+      "id": "49b5",
+      "idMatch": "4",
+      "date": "2025-01-02",
+      "player1": "Zio Nero",
+      "player2": "Fagotto",
+      "player3": "Zio Bianco",
+      "player4": "Fecchie",
+      "resultTeam1": "6",
+      "resultTeam2": "4",
+      "winners": [
+        "Zio Nero",
+        "Fagotto"
+      ]
+    }
+  ]
+}

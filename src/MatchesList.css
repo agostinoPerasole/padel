@@ -1,0 +1,52 @@
+/* MatchesList.css */
+.matches-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.matches-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.matches-table th,
+.matches-table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.matches-table th {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.matches-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.matches-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.matches-table td {
+  font-size: 1rem;
+  color: #555;
+}
+
+.matches-table td:first-child {
+  font-weight: bold;
+}
