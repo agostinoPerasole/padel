@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/padel/static/css/main.e572bdac.css",
+    "main.js": "/padel/static/js/main.4677b4fb.js",
+    "index.html": "/padel/index.html",
+    "main.e572bdac.css.map": "/padel/static/css/main.e572bdac.css.map",
+    "main.4677b4fb.js.map": "/padel/static/js/main.4677b4fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e572bdac.css",
+    "static/js/main.4677b4fb.js"
+  ]
+}
