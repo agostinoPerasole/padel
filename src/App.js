@@ -9,15 +9,19 @@ function App() {
     <div className="app-container">
       <header className="header">
         <h1 className="title">Padel Tracker</h1>
-        <p className="welcome-message">Track your padel matches and players effortlessly!</p>
+        <p className="welcome-message">Salva le tue partite senza sforzo!</p>
       </header>
       <section className="content">
         <div className="button-group">
-          <Link to="/add-player" className="button">Add New Player</Link>
-          <Link to="/add-match" className="button">Add New Match</Link>
-		  <Link to="/players" className="button">View All Players</Link>
-          <Link to="/matches" className="button">View All Matches</Link>
+		
+          <Link to="/add-player" className="button">Nuovo Giocatore</Link>
+          <Link to="/add-match" className="button">Aggiungi Partita</Link>
+	
+          <Link to="/matches" className="button">Storico Partite</Link>
+		  
 		  <Link to="/leaderboard" className="button">Classifica</Link>
+
+		  <Link to="/players" className="button">Vedi Giocatori</Link>
         </div>
           
       </section>
