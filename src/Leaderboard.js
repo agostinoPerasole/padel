@@ -10,7 +10,7 @@ function Leaderboard() {
     // Fetch dei giocatori
     const fetchPlayers = async () => {
       try {
-        const response = await fetch('http://localhost:5000/players');
+        const response = await fetch('https://padel-id2x.onrender.com');
         const data = await response.json();
         setPlayers(data);
       } catch (error) {
