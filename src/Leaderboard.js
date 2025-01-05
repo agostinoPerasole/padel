@@ -21,7 +21,7 @@ function Leaderboard() {
     // Fetch dei match
     const fetchMatches = async () => {
       try {
-        const response = await fetch('http://localhost:5000/matches');
+        const response = await fetch('https://padel-id2x.onrender.com');
         const data = await response.json();
         setMatches(data);
       } catch (error) {
