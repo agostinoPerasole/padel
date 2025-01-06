@@ -8,7 +8,7 @@ function MatchesList() {
   useEffect(() => {
     const fetchMatches = async () => {
       try {
-        const response = await fetch('http://localhost:5000/matches');
+        const response = await fetch('https://padel-json-server-7cc2f163c913.herokuapp.com/matches');
         const data = await response.json();
         setMatches(data);
       } catch (error) {
