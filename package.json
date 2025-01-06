@@ -2,7 +2,7 @@
   "name": "padel-tracker",
   "version": "0.1.0",
   "main": "src/app.js",
-  "homepage": "https://agostinoPerasole.github.io/padel",
+  "homepage": ".",
   "dependencies": {
     "cra-template": "1.2.0",
     "firebase": "^11.1.0",
