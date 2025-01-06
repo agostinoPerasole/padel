@@ -16,9 +16,9 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/add-player" element={<AddPlayer />} />
-		<Route path="/players" element={<PlayersList />} />
+		<Route path="/allplayers" element={<PlayersList />} />
 		<Route path="/add-match" element={<AddMatch />} />
-		<Route path="/matches" element={<MatchesList />} />
+		<Route path="/allmatches" element={<MatchesList />} />
 		<Route path="/leaderboard" element={<Leaderboard />} />
       </Routes>
     </Router>
